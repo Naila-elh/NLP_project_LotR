@@ -158,9 +158,11 @@ for (i in 1:6){
 
 ############################################################
 
-############    MACHINE LEARNING ALGORITHMS    #############
+#######    3. MACHINE LEARNING : CLASSIFICATION    #######
 
 ##########################################################
+
+# Prediction of the clusters predicted before
 
 
 #######     PROCESSING     #####
