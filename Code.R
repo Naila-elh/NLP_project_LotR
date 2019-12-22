@@ -4,7 +4,7 @@
 
 #########################################################
 
-setwd("C:/Users/naila/Documents/ENSAE/Cours/3A/Apprentissage statistique appliqué/TP3")
+setwd("C:/Users/naila/Documents/ENSAE/Cours/3A/Apprentissage statistique appliquÃ©/TP3")
 file.create("lord-of-the-ring-data")
 
 #Packages
@@ -196,7 +196,7 @@ sum_errors=0
 for (i in 1:100) {
   fold = sample(rep(1:5,each=30)) # creation des groupes B_v
   cvpred = matrix(NA,nrow=nrow(train),ncol=ncol(train)) # initialisation de la matrice
-  # des prédicteurs
+  # des prÃ©dicteurs
   for (k in 1:10)
     for (v in 1:5)
     {
